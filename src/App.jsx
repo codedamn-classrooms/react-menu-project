@@ -13,6 +13,7 @@ function App() {
 					<div className="underline"></div>
 				</div>
 				<Categories />
+				{/* pass "items" imported above here as items prop */}
 				<Menu />
 			</section>
 		</main>
