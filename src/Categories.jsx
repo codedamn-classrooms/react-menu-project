@@ -4,7 +4,13 @@ const Categories = (props) => {
 	const filterItems = props.filterItems
 
 	// construct the UI according to instructions
-	return <h2>categories component</h2>
+	return (
+		<div className="btn-container">
+			<button className="filter-btn">All</button>
+			<button className="filter-btn">Breakfast</button>
+			<button className="filter-btn">Snacks</button>
+		</div>
+	)
 }
 
 export default Categories
