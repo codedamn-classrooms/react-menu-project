@@ -7,8 +7,8 @@ function App() {
 	const [menuItems, setMenuItems] = useState(items)
 
 	// don't worry about it yet
-	const filterItems = () => {
-
+	const filterItems = (category) => {
+		
 	}
 
 	return (
