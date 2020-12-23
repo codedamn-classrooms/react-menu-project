@@ -12,6 +12,11 @@ function App() {
 		// filter out items only of that
 		// category and set them using
 		// setMenuItems
+		if (category === 'all') {
+			setMenuItems(items)
+		} else {
+			setMenuItems(items.filter((item) => item.category === category))
+		}
 	}
 
 	return (
