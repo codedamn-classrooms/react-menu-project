@@ -4,7 +4,12 @@ import Categories from './Categories'
 import items from './data'
 
 // dynamically calculate unqiue values here
-const categories = []
+
+const duplicatedCategories = items.map((item) => item.category)
+const uniqueCategorySet = new Set(duplicatedCategories)
+
+// 'all' is there to generate the all category button
+const categories = ['all', ...uniqueCategorySet]
 
 function App() {
 	const [menuItems, setMenuItems] = useState(items)
