@@ -14,7 +14,7 @@ function App() {
 				</div>
 				<Categories />
 				{/* pass "items" imported above here as items prop */}
-				<Menu />
+				<Menu items={items} />
 			</section>
 		</main>
 	)
