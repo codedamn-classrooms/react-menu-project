@@ -6,9 +6,12 @@ import items from './data'
 function App() {
 	const [menuItems, setMenuItems] = useState(items)
 
-	// don't worry about it yet
-	const filterItems = () => {
-
+	// Implement this function
+	const filterItems = (category) => {
+		// Use passed category to
+		// filter out items only of that
+		// category and set them using
+		// setMenuItems
 	}
 
 	return (
